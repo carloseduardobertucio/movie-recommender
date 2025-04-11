@@ -17,23 +17,15 @@ Uma API RESTful construída com **FastAPI** e **SQLAlchemy**, que permite gerenc
 
 ## 🧱 Estrutura do Projeto
 📁 app/ ├── main.py ├── models.py ├── schemas.py ├── crud.py ├── database.py ├── seed_database.py
+📁 static/ ├── index.html ├── style.css ├── script.js
 
-
-## 📡 Endpoints Principais
-Método	 Rota	 Descrição
-GET	    /filmes	 Lista todos os filmes
-POST	/filmes	 Cria um novo filme
-GET	    /filmes/{usuario_id}/recomendacoes	 Recomenda filmes com base no usuário
-POST	/usuarios	 Cria um novo usuário
-POST	/avaliacoes 	Adiciona uma avaliação para um filme
-POST	/visualizacoes	Registra uma visualização de filme
-
+---
 
 ## 👾 Execução 
 
 ## Clone o repositório:
 
-git clone 
+git clone git@github.com:carloseduardobertucio/movie-recommender.git
 cd biso
 
 
@@ -57,5 +49,5 @@ python seed_database.py
 
 uvicorn main:app --reload
 
-Logo após, acesse: http://127.0.0.1:8000/static/index.html
+Logo após, acesse: http://127.0.0.1:8000/
 
