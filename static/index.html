@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>BisoFlix</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BisoFlix 🎬</h1>
+
+    <h2>Criar Usuário</h2>
+    <input type="text" id="username" placeholder="Nome de usuário">
+    <button onclick="criarUsuario()">Criar</button>
+
+    <h2>Filmes Disponíveis</h2>
+    <button onclick="carregarFilmes()">Carregar Filmes</button>
+    <ul id="lista-filmes"></ul>
+
+    <h2>Avaliar Filme</h2>
+    <input type="number" id="userIdRating" placeholder="ID do Usuário">
+    <input type="number" id="movieIdRating" placeholder="ID do Filme">
+    <input type="number" id="score" placeholder="Nota (0 a 10)" min="0" max="10">
+    <button onclick="avaliarFilme()">Avaliar</button>
+
+    <h2>Recomendações</h2>
+    <input type="number" id="userIdRecom" value="1">
+    <button onclick="verRecomendacoes()">Ver Recomendações</button>
+    <ul id="lista-recomendacoes"></ul>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
