@@ -26,8 +26,8 @@ Uma API RESTful construída com **FastAPI** e **SQLAlchemy**, que permite gerenc
 ## Clone o repositório:
 
 git clone git@github.com:carloseduardobertucio/movie-recommender.git
-cd biso
 
+---
 
 ## Crie um ambiente virtual:
 
